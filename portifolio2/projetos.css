@@ -1,0 +1,46 @@
+.projetos{
+    border: 1px solid white;
+    display: block;
+    height: 100%;
+}
+
+.projeto{
+    border: 1px solid white;
+    display: flex;
+    width: 80vw;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imgpro{
+    border: 1px solid white;
+    height: 100%;
+    width: 40vw;
+    display: flex;
+}
+
+.despro{
+    border: 1px solid white;
+    height: 100%;
+    width: 60vw;
+}
+
+.projeto img{
+    background-color: gray;
+    border: 1px solid white;
+    display: flex;
+    overflow: hidden;
+    height: 200px;
+    width: 70%;
+    margin: auto;
+}
+
+.tecno{
+    border: 1px solid white;
+    background-color: gray;
+    height: 30%;
+    width: 80%;
+    margin: auto;
+}
