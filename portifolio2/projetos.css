@@ -6,6 +6,7 @@
 
 .projeto{
     border: 1px solid white;
+    background-color: rgb(85, 85, 85);
     display: flex;
     width: 80vw;
     height: 300px;
@@ -21,10 +22,23 @@
     display: flex;
 }
 
+.imgpro img:hover{
+    transform: scale(110%);
+    box-shadow: 0px 0px 10px black;
+}
+
 .despro{
     border: 1px solid white;
     height: 100%;
     width: 60vw;
+    padding: 20px;
+    color: white;
+    font-size: medium;
+}
+
+.despro h2{
+    color: aqua;
+    margin-bottom: 10px;
 }
 
 .projeto img{
@@ -33,14 +47,42 @@
     display: flex;
     overflow: hidden;
     height: 200px;
-    width: 70%;
+    width: 300px;
     margin: auto;
+    transition: 0.5s;
 }
 
 .tecno{
     border: 1px solid white;
     background-color: gray;
-    height: 30%;
+    height: 40%;
     width: 80%;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.tecnologias{
+    border: 1px solid white;
+    margin: 10px;
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+}
+
+.tecnologia{
+    width: 50px;
+    margin: 5px;
+    display: flex;
+}
+
+.tecnologia img{
+    width: 50px;
+    height: 50px;
     margin: auto;
+    transition: 0.5s;
+}
+
+.tecnologia img:hover{
+    transform: scale(110%);
+    box-shadow: 0px 0px 10px black;
 }
